@@ -1,0 +1,44 @@
+:root {
+  --pro-btn-color: #ff589b;
+  --pro-btn-colors: #ff136f;
+  --white-color: #ffffff;
+  --pro-bg-color: #fceae8;
+  --pro-bg-orange: #ffa500;
+  --pro-bg-orchid: #da70d6;
+  --pro-bg-blue: #0000ff;
+}
+
+.pro-slide-bg {
+  background: var(--pro-bg-color);
+  margin-top: 6rem;
+  border-radius: 10px;
+}
+.price{
+    color: var(--pro-btn-colors);
+}
+.proweb-btn {
+  background: linear-gradient(
+    to bottom,
+    var(--pro-btn-color) 0%,
+    var(--pro-btn-colors) 100%
+  );
+  color: var(--white-color);
+  font-size: 1.2rem;
+}
+.proweb-btn:hover {
+  color: var(--white-color);
+}
+
+.logo {
+  color: var(--pro-btn-colors);
+}
+/* catagories */
+.pro-bg-orange {
+  background-color: var(--pro-bg-orange);
+}
+.pro-bg-orchid {
+  background-color: var(--pro-bg-orchid);
+}
+.pro-bg-blue {
+  background-color: var(--pro-bg-blue);
+}
