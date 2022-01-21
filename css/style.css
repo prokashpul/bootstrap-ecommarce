@@ -24,9 +24,15 @@
   );
   color: var(--white-color);
   font-size: 1.1rem;
+  transition: 1s ease;
 }
 .proweb-btn:hover {
   color: var(--white-color);
+  background: linear-gradient(
+    to bottom,
+    var(--pro-btn-color) 100%,
+    var(--pro-btn-colors) 0%
+  );
 }
 
 .logo {
