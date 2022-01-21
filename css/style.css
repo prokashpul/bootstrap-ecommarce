@@ -23,7 +23,7 @@
     var(--pro-btn-colors) 100%
   );
   color: var(--white-color);
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 .proweb-btn:hover {
   color: var(--white-color);
@@ -41,4 +41,7 @@
 }
 .pro-bg-blue {
   background-color: var(--pro-bg-blue);
+}
+.container{
+    margin-bottom: 100px;
 }
