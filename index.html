@@ -1,336 +1,275 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Proweb Digital shop</title>
-    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon" />
-    <!-- ==========Bootstrap stylesheet ================ -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
-      crossorigin="anonymous"
-    />
-    <!-- ================Custom stylesheet ======================= -->
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
 
-  <body>
-    <!-- ============ Header section ================ -->
-    <header class="header">
-      <!-- nav section -->
-      <div class="container">
-        <nav class="navbar navbar-expand-md bg-light navbar-light">
-          <div class="logo d-flex align-items-center">
-            <img src="images/logo.png" alt="" /><span class="h2 ms-2"
-              >Proweb</span
-            >
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Proweb Digital shop</title>
+  <link rel="shortcut icon" href="images/logo.png" type="image/x-icon" />
+  <!-- ==========Bootstrap stylesheet ================ -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+  <!-- ================Custom stylesheet ======================= -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <!-- ============ Header section ================ -->
+  <header class="header">
+    <!-- nav section -->
+    <div class="container-fluid ">
+      <nav class="navbar navbar-expand-md bg-light navbar-light fixed-top px-5">
+        <div class="logo d-flex align-items-center">
+          <img src="images/logo.png" alt="" /><span class="h2 ms-2">Proweb</span>
+        </div>
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar" aria-expanded="false"
+          aria-label="Navigation Toggle">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="#" class="nav-link active">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#shop" class="nav-link">Shoes </a>
+            </li>
+            <li class="nav-item">
+              <a href="#backpack" class="nav-link">Backpack</a>
+            </li>
+            <li class="nav-item">
+              <a href="#subscribe" class="nav-link">Subscribe</a>
+            </li>
+          </ul>
+        </div>
+
+      </nav>
+    </div>
+    <!-- header content Carousel -->
+    <div class="container carousel-slide">
+      <div class="carousel slide pro-slide-bg py-3 px-5 my-5" data-bs-ride="carousel" id="slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row g-5 d-flex align-items-center">
+              <div class="col-md-6">
+                <h1 class="fw-bold my-3">Cool Dude Headphone</h1>
+                <p>
+                  This is the best headphone in the world for people who just
+                  want to waste time in front of funky world.
+                </p>
+                <div class="price h3 my-3">$350</div>
+                <a href="" class="btn proweb-btn">BUY NOW</a>
+              </div>
+              <div class="col-md-6">
+                <img src="images/banner-images/headphone.png" alt="" class="w-100" />
+              </div>
+            </div>
           </div>
-          <button
-            class="navbar-toggler"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbar"
-            aria-expanded="false"
-            aria-label="Navigation Toggle"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbar">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a href="#" class="nav-link active">Home</a>
-              </li>
-              <li class="nav-item">
-                <a href="#shop" class="nav-link">Shoes </a>
-              </li>
-              <li class="nav-item">
-                <a href="#backpack" class="nav-link">Backpack</a>
-              </li>
-              <li class="nav-item">
-                <a href="#subscribe" class="nav-link">Subscribe</a>
-              </li>
-            </ul>
+          <div class="carousel-item">
+            <div class="row g-5 d-flex align-items-center">
+              <div class="col-md-6">
+                <h1 class="fw-bold my-3">X-Box for your living room</h1>
+                <p>
+                  This is the best x-box in the world for people who just want
+                  to waste time in front of fake sports.
+                </p>
+                <div class="price h3 my-3">$650</div>
+
+                <a href="" class="btn proweb-btn">BUY NOW</a>
+              </div>
+              <div class="col-md-6">
+                <img src="images/banner-images/xbox.png" alt="" class="w-100" />
+              </div>
+            </div>
           </div>
-        </nav>
+          <div class="carousel-item">
+            <div class="row g-5 d-flex align-items-center">
+              <div class="col-md-6">
+                <h1 class="fw-bold my-3">Mega LCD TV For Sports</h1>
+                <p>
+                  This is the best tv in the world for people who just want to
+                  waste time in front of tv.
+                </p>
+                <div class="price h3 my-3">$450</div>
+                <a href="" class="btn proweb-btn">BUY NOW</a>
+              </div>
+              <div class="col-md-6">
+                <img src="images/banner-images/tv.png" alt="" class="w-100" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#slide" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#slide" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
       </div>
-      <!-- header content Carousel -->
-      <div class="container carousel-slide">
-        <div
-          class="carousel slide pro-slide-bg py-3 px-5 my-5"
-          data-bs-ride="carousel"
-          id="slide"
-        >
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <div class="row g-5 d-flex align-items-center">
-                <div class="col-md-6">
-                  <h1 class="fw-bold my-3">Cool Dude Headphone</h1>
-                  <p>
-                    This is the best headphone in the world for people who just
-                    want to waste time in front of funky world.
-                  </p>
-                  <div class="price h3 my-3">$350</div>
-                  <a href="" class="btn proweb-btn">BUY NOW</a>
-                </div>
-                <div class="col-md-6">
-                  <img
-                    src="images/banner-images/headphone.png"
-                    alt=""
-                    class="w-100"
-                  />
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="row g-5 d-flex align-items-center">
-                <div class="col-md-6">
-                  <h1 class="fw-bold my-3">X-Box for your living room</h1>
-                  <p>
-                    This is the best x-box in the world for people who just want
-                    to waste time in front of fake sports.
-                  </p>
-                  <div class="price h3 my-3">$650</div>
-
-                  <a href="" class="btn proweb-btn">BUY NOW</a>
-                </div>
-                <div class="col-md-6">
-                  <img
-                    src="images/banner-images/xbox.png"
-                    alt=""
-                    class="w-100"
-                  />
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="row g-5 d-flex align-items-center">
-                <div class="col-md-6">
-                  <h1 class="fw-bold my-3">Mega LCD TV For Sports</h1>
-                  <p>
-                    This is the best tv in the world for people who just want to
-                    waste time in front of tv.
-                  </p>
-                  <div class="price h3 my-3">$450</div>
-                  <a href="" class="btn proweb-btn">BUY NOW</a>
-                </div>
-                <div class="col-md-6">
-                  <img src="images/banner-images/tv.png" alt="" class="w-100" />
-                </div>
-              </div>
-            </div>
+    </div>
+  </header>
+  <!--======================- main section -===================== -->
+  <main class="main container">
+    <section class="catagories container">
+      <div class="row g-4 my-5">
+        <div class="col-lg-4 col-md-6">
+          <div class="pro-bg-orange d-flex align-items-center justify-content-between shadow rounded p-3">
+            <h2 class="fw-bold text-light fw-bold">Watch</h2>
+            <img src="images/categories/watch.png" alt="" height="100px" />
           </div>
-          <button
-            class="carousel-control-prev"
-            type="button"
-            data-bs-target="#slide"
-            data-bs-slide="prev"
-          >
-            <span class="carousel-control-prev-icon"></span>
-          </button>
-          <button
-            class="carousel-control-next"
-            type="button"
-            data-bs-target="#slide"
-            data-bs-slide="next"
-          >
-            <span class="carousel-control-next-icon"></span>
-          </button>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="pro-bg-orchid d-flex align-items-center justify-content-between shadow rounded p-3">
+            <h2 class="fw-bold text-light fw-bold">Shoes</h2>
+            <img src="images/categories/shoes.png" alt="" height="100px" />
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="pro-bg-blue d-flex align-items-center justify-content-between shadow rounded p-3">
+            <h2 class="fw-bold text-light fw-bold">Bags</h2>
+            <img src="images/categories/bag.png" alt="" height="100px" />
+          </div>
         </div>
       </div>
-    </header>
-    <!--======================- main section -===================== -->
-    <main class="main container">
-      <section class="catagories container">
-        <div class="row g-4 my-5">
-          <div class="col-lg-4 col-md-6">
-            <div
-              class="pro-bg-orange d-flex align-items-center justify-content-between shadow rounded p-3"
-            >
-              <h2 class="fw-bold text-light fw-bold">Watch</h2>
-              <img src="images/categories/watch.png" alt="" height="100px" />
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div
-              class="pro-bg-orchid d-flex align-items-center justify-content-between shadow rounded p-3"
-            >
-              <h2 class="fw-bold text-light fw-bold">Shoes</h2>
-              <img src="images/categories/shoes.png" alt="" height="100px" />
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div
-              class="pro-bg-blue d-flex align-items-center justify-content-between shadow rounded p-3"
-            >
-              <h2 class="fw-bold text-light fw-bold">Bags</h2>
-              <img src="images/categories/bag.png" alt="" height="100px" />
+    </section>
+    <!-- shoes section -->
+    <section class="shoes container" id="shop">
+      <div class="my-3 h2">Shops</div>
+      <div class="row g-4 g-md-5">
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 border-0 shadow bg-body">
+            <div class="card-body">
+              <div class="card-header border-0 bg-transparent mb-3 p-0">
+                <img src="images/shoes/shoe-1.png" alt="shoes" class="img-fluid" />
+              </div>
+              <div class="card-title h3">Supply 350</div>
+              <p>
+                This is a longer card with supporting text below as a natural
+                lead-in to additional.
+              </p>
+              <div class="h4">$340</div>
+              <a href="" class="btn proweb-btn">BUY NOW</a>
             </div>
           </div>
         </div>
-      </section>
-      <!-- shoes section -->
-      <section class="shoes container" id="shop">
-        <div class="my-3 h2">Shops</div>
-        <div class="row g-4 g-md-5">
-          <div class="col-md-6 col-lg-4">
-            <div class="card h-100 border-0 shadow bg-body">
-              <div class="card-body">
-                <div class="card-header border-0 bg-transparent mb-3 p-0">
-                  <img
-                    src="images/shoes/shoe-1.png"
-                    alt="shoes"
-                    class="img-fluid"
-                  />
-                </div>
-                <div class="card-title h3">Supply 350</div>
-                <p>
-                  This is a longer card with supporting text below as a natural
-                  lead-in to additional.
-                </p>
-                <div class="h4">$340</div>
-                <a href="" class="btn proweb-btn">BUY NOW</a>
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 border-0 shadow bg-body">
+            <div class="card-body">
+              <div class="card-header border-0 bg-transparent mb-3 p-0">
+                <img src="images/shoes/shoe-2.png" alt="shoes" class="img-fluid" />
               </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <div class="card h-100 border-0 shadow bg-body">
-              <div class="card-body">
-                <div class="card-header border-0 bg-transparent mb-3 p-0">
-                  <img
-                    src="images/shoes/shoe-2.png"
-                    alt="shoes"
-                    class="img-fluid"
-                  />
-                </div>
-                <div class="card-title h3">Nike 360</div>
-                <p>
-                  This card has supporting text below as a natural lead-in to
-                  additional content.
-                </p>
-                <div class="h4">$500</div>
-                <a href="" class="btn proweb-btn">BUY NOW</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <div class="card h-100 border-0 shadow bg-body">
-              <div class="card-body">
-                <div class="card-header border-0 bg-transparent mb-3 p-0">
-                  <img
-                    src="images/shoes/shoe-3.png"
-                    alt="shoes"
-                    class="img-fluid"
-                  />
-                </div>
-                <div class="card-title h3">Red Airmax</div>
-                <p>
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional.
-                </p>
-                <div class="h4">$460</div>
-                <a href="" class="btn proweb-btn">BUY NOW</a>
-              </div>
+              <div class="card-title h3">Nike 360</div>
+              <p>
+                This card has supporting text below as a natural lead-in to
+                additional content.
+              </p>
+              <div class="h4">$500</div>
+              <a href="" class="btn proweb-btn">BUY NOW</a>
             </div>
           </div>
         </div>
-      </section>
-      <!-- ===============Backpack ================ -->
-      <section class="backpack container" id="backpack">
-        <div class="my-3 h2">Backpack</div>
-        <div class="row g-4 g-md-5">
-          <div class="col-md-6 col-lg-4">
-            <div class="card h-100 border-0 shadow bg-body">
-              <div class="card-body">
-                <div class="card-header border-0 bg-transparent mb-3 p-0">
-                  <img
-                    src="images/bags/bag-1.png"
-                    alt="shoes"
-                    class="img-fluid"
-                  />
-                </div>
-                <div class="card-title h3">Red Bag</div>
-                <p>
-                  This is a longer card with supporting text below as a natural
-                  lead-in to additional.
-                </p>
-                <div class="h4">$240</div>
-                <a href="" class="btn proweb-btn">BUY NOW</a>
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 border-0 shadow bg-body">
+            <div class="card-body">
+              <div class="card-header border-0 bg-transparent mb-3 p-0">
+                <img src="images/shoes/shoe-3.png" alt="shoes" class="img-fluid" />
               </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <div class="card h-100 border-0 shadow bg-body">
-              <div class="card-body">
-                <div class="card-header border-0 bg-transparent mb-3 p-0">
-                  <img
-                    src="images/bags/bag-2.png"
-                    alt="shoes"
-                    class="img-fluid"
-                  />
-                </div>
-                <div class="card-title h3">Blue bag</div>
-                <p>
-                  This card has supporting text below as a natural lead-in to
-                  additional content.
-                </p>
-                <div class="h4">$540</div>
-                <a href="" class="btn proweb-btn">BUY NOW</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <div class="card h-100 border-0 shadow bg-body">
-              <div class="card-body">
-                <div class="card-header border-0 bg-transparent mb-3 p-0">
-                  <img
-                    src="images/bags/bag-3.png"
-                    alt="shoes"
-                    class="img-fluid"
-                  />
-                </div>
-                <div class="card-title h3">Black bag</div>
-                <p>
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional.
-                </p>
-                <div class="h4">$260</div>
-                <a href="" class="btn proweb-btn">BUY NOW</a>
-              </div>
+              <div class="card-title h3">Red Airmax</div>
+              <p>
+                This is a wider card with supporting text below as a natural
+                lead-in to additional.
+              </p>
+              <div class="h4">$460</div>
+              <a href="" class="btn proweb-btn">BUY NOW</a>
             </div>
           </div>
         </div>
-      </section>
-      <!-- ======= subscribe section =========== -->
-      <section class="subscribe container" id="subscribe">
-        <div class="row justify-content-center align-items-center">
-          <div class="col-md-6">
-            <div class="h2 fw-bold">LET'S STAY IN TOUCH</div>
-            <div class="h5 text-secondary">
-              Get updates on sales, specials and more
-            </div>
-            <div class="sub-from mt-4">
-              <input
-                type="text"
-                class="form-control"
-                name="subscribe"
-                id="sub"
-              />
-              <div class="d-grid my-3">
-                <div class="btn proweb-btn col-md-6">Subscribe Now</div>
+      </div>
+    </section>
+    <!-- ===============Backpack ================ -->
+    <section class="backpack container" id="backpack">
+      <div class="my-3 h2">Backpack</div>
+      <div class="row g-4 g-md-5">
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 border-0 shadow bg-body">
+            <div class="card-body">
+              <div class="card-header border-0 bg-transparent mb-3 p-0">
+                <img src="images/bags/bag-1.png" alt="shoes" class="img-fluid" />
               </div>
+              <div class="card-title h3">Red Bag</div>
+              <p>
+                This is a longer card with supporting text below as a natural
+                lead-in to additional.
+              </p>
+              <div class="h4">$240</div>
+              <a href="" class="btn proweb-btn">BUY NOW</a>
             </div>
           </div>
         </div>
-      </section>
-    </main>
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 border-0 shadow bg-body">
+            <div class="card-body">
+              <div class="card-header border-0 bg-transparent mb-3 p-0">
+                <img src="images/bags/bag-2.png" alt="shoes" class="img-fluid" />
+              </div>
+              <div class="card-title h3">Blue bag</div>
+              <p>
+                This card has supporting text below as a natural lead-in to
+                additional content.
+              </p>
+              <div class="h4">$540</div>
+              <a href="" class="btn proweb-btn">BUY NOW</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 border-0 shadow bg-body">
+            <div class="card-body">
+              <div class="card-header border-0 bg-transparent mb-3 p-0">
+                <img src="images/bags/bag-3.png" alt="shoes" class="img-fluid" />
+              </div>
+              <div class="card-title h3">Black bag</div>
+              <p>
+                This is a wider card with supporting text below as a natural
+                lead-in to additional.
+              </p>
+              <div class="h4">$260</div>
+              <a href="" class="btn proweb-btn">BUY NOW</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ======= subscribe section =========== -->
+    <section class="subscribe container pro-slide-bg" id="subscribe">
+      <div class="row justify-content-center align-items-center py-5">
+        <div class="col-md-6">
+          <div class="h2 fw-bold">LET'S STAY IN TOUCH</div>
+          <div class="h5 text-secondary">
+            Get updates on sales, specials and more
+          </div>
+          <div class="sub-from mt-4">
+            <input type="text" class="form-control" name="subscribe" id="sub" placeholder="Your email" />
+            <div class="d-grid my-3">
+              <div class="btn proweb-btn col-md-6">Subscribe Now</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!-- ============= footer section ===================== -->
+  <footer class="footer container-fluid bg-light">
+    <div class="text-center p-3">
+      &copy; 2022 Commerce proweb. All rights reserved.
+    </div>
+  </footer>
 
-    <!-- ==================Script Links ================ -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+  <!-- ==================Script Links ================ -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+  </script>
+</body>
+
 </html>
