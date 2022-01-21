@@ -48,9 +48,26 @@
 .pro-bg-blue {
   background-color: var(--pro-bg-blue);
 }
-.container{
+section{
     margin-bottom: 100px;
 }
 .carousel-slide{
   margin-top: 150px;
+}
+.sub-from input{
+  width: 70%;
+  border-radius: none;
+  border:none;
+  outline:0;
+  padding-left: 20px;
+}
+.sub-from .proweb-btn {
+  border:none;
+  width: 30%;
+  padding:8px 10px;
+  text-align: center;
+}
+.sub-from{
+  border-radius: 5px;
+  overflow: hidden;
 }
